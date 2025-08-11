@@ -12,8 +12,12 @@
       "value": "100px",
       "type": "sizing"
     },
-    "FontSizeHeader": {
+    "large": {
       "value": "50px",
+      "type": "fontSizes"
+    },
+    "small": {
+      "value": "20px",
       "type": "fontSizes"
     }
   },
