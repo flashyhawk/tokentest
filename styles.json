@@ -1,3 +1,18 @@
 {
-    
+  "colors": {
+    "primary": {
+      "value": "#a0a0a0",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#f00",
+      "type": "color"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "colors"
+    ]
+  }
 }
