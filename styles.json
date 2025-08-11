@@ -7,6 +7,14 @@
     "secondary": {
       "value": "#f00",
       "type": "color"
+    },
+    "title1": {
+      "value": "100px",
+      "type": "sizing"
+    },
+    "FontSizeHeader": {
+      "value": "50px",
+      "type": "fontSizes"
     }
   },
   "$themes": [],
