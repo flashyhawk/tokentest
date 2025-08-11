@@ -1,16 +1,12 @@
 {
-  "colors": {
+  "Header": {
     "primary": {
-      "value": "#a0a0a0",
+      "value": "#000",
       "type": "color"
     },
     "secondary": {
-      "value": "#f00",
+      "value": "#f90000",
       "type": "color"
-    },
-    "title1": {
-      "value": "100px",
-      "type": "sizing"
     },
     "large": {
       "value": "50px",
@@ -21,10 +17,81 @@
       "type": "fontSizes"
     }
   },
+  "Header/Header": {
+    "primary": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#f90000",
+      "type": "color"
+    },
+    "large": {
+      "value": "3.125rem",
+      "type": "dimension"
+    },
+    "small": {
+      "value": "1.25rem",
+      "type": "dimension"
+    }
+  },
+  "global/global": {
+    "color": {
+      "primary": {
+        "value": "#d4bcbc",
+        "type": "color"
+      },
+      "background": {
+        "value": "#b3b3b3",
+        "type": "color"
+      },
+      "title1": {
+        "value": "#fa0000",
+        "type": "color"
+      }
+    },
+    "sm": {
+      "value": "0.5rem",
+      "type": "dimension"
+    },
+    "md": {
+      "value": "1rem",
+      "type": "dimension"
+    },
+    "lg": {
+      "value": "2rem",
+      "type": "dimension"
+    }
+  },
+  "colors/colors": {
+    "primary": {
+      "value": "#a0a0a0",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#ff0000",
+      "type": "color"
+    },
+    "title1": {
+      "value": "6.25rem",
+      "type": "dimension"
+    },
+    "large": {
+      "value": "3.125rem",
+      "type": "dimension"
+    },
+    "small": {
+      "value": "1.25rem",
+      "type": "dimension"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "colors"
+      "Header",
+      "Header/Header",
+      "global/global",
+      "colors/colors"
     ]
   }
 }
